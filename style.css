@@ -1,0 +1,198 @@
+*{
+    margin:0; padding:0;
+}
+header{
+    display:flex;
+    width: 100%;
+    height: 4em;
+    background-color: rgb(27, 27, 27);
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:0.2em;
+    border: 0.1em solid white;
+   margin:1em;
+    
+}
+nav{
+    padding:1.5em;
+}
+a:hover{
+    color:teal;
+    background-color: white;;
+}
+h1{
+    font-weight: bolder;
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+.cajapadre{
+    display:flex;
+    width: 70%;
+    height: 30%;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    text-align: center;  
+}
+.caja1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 20%;
+    padding: 1em;
+}
+.verde{
+    color:darkgreen;
+}
+.green{
+    background-color: darkgreen;
+    color:white;
+}
+.green:hover{
+    background-color: lightgreen;
+    color:black;
+}
+.caja2{
+    flex-grow: 1;
+    width: 20%;
+    padding: 1em;
+    flex-shrink: 1;
+}
+.azul{
+    color:darkblue;
+}
+.blue{
+    background-color: darkblue;
+    color:white;
+}
+.blue:hover{
+    background-color: lightskyblue;
+    color:black;
+}
+.caja3{
+    flex-grow: 1;
+    width: 20%;
+    padding: 1em;
+    flex-shrink: 1;
+}
+.rojo{
+    color:darkred;
+}
+.red{
+    background-color: darkred;
+    color:white;
+}
+.red:hover{
+    background-color:darkorchid;
+    color:black;
+}
+.caja4{
+    flex-grow: 1;
+    width: 30%;
+    padding: 1em;
+    flex-shrink: 1;
+
+}
+.caja5{
+    flex-grow: 1;
+    width: 30%;
+    padding: 1em;
+    flex-shrink: 1;
+
+}
+.centrado{
+    font-size: 35px;
+    color:white;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.centrado2{
+    color:blanchedalmond;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%)   
+}
+.one{
+    width: 1350px;
+    height: 150px;
+}
+.box{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    text-align: center;
+    margin:4em auto;
+}
+.uno{
+    flex-grow: 1;
+    width: 15%;
+    padding-right: 1em;
+}
+.dos{
+    flex-grow: 1;  
+    width: 15%;
+    padding-right: 1em;
+}
+.tres{
+    flex-grow: 1;  
+    width: 15%;
+    padding-right: 1em;
+}
+.cuatro{
+    flex-grow: 1;   
+    width: 15%;
+}
+.thelast{
+    display:flex;
+    text-align: center;
+    background-color: lightgray;
+}
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 5em auto;
+    text-align: center;
+}
+.text{
+    width: 100%;
+}
+.lorem{
+   background-color: rgb(151, 151, 151);
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+.form{
+    width: 50%;
+    margin: 0.2em auto;
+}
+.input{
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+.form2{
+    width: 50%;
+    
+}
+button{
+    display:block;
+    margin: 1em auto;
+    background-color: black;
+    color:white;
+    padding: 0.5em;
+    border-radius: 0.8em;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+
